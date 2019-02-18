@@ -1,0 +1,11 @@
+dist: xenial
+language: node_js
+node_js:
+  - 'node'
+cache: npm
+install:
+  - npm i
+script:
+  - npm test
+after_success:
+  - npm run report

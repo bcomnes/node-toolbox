@@ -1,0 +1,16 @@
+{
+  "bins": [
+    "tape",
+    "standard",
+    "snazzy",
+    "coveralls",
+    "gh-release",
+    "mkdirp",
+    "npm-run-all",
+    "run-p",
+    "run-s",
+    "rimraf",
+    "tap-format-spec",
+    "nyc"
+  ]
+}
