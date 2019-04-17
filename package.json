@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "author": "Bret Comnes",
   "bugs": {
-    "url": "https://github.com/bcomnes/bret-toolbox/issues"
+    "url": "https://github.com/bcomnes/node-toolbox/issues"
   },
   "dependencies": {
     "@tap-format/spec": "^0.2.0",
@@ -20,7 +20,7 @@
     "standard": "^12.0.1",
     "tape": "^4.10.1"
   },
-  "homepage": "https://github.com/bcomnes/bret-toolbox#readme",
+  "homepage": "https://github.com/bcomnes/node-toolbox#readme",
   "keywords": [
     "automation",
     "devdeps"
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcomnes/bret-toolbox.git"
+    "url": "git+https://github.com/bcomnes/node-toolbox.git"
   },
   "scripts": {
     "debug": "node --nolazy --inspect-brk=9229 node_modules/.bin/tape '{lib,test}/**/*.spec.js' | tap-format-spec",
