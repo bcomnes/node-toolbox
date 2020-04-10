@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@tap-format/spec": "^0.2.0",
-    "auto-changelog": "^1.11.0",
+    "auto-changelog": "^2.0.0",
     "coveralls": "^3.0.2",
     "dependency-check": "^4.1.0",
     "gh-release": "^3.5.0",
