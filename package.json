@@ -9,7 +9,6 @@
   "dependencies": {
     "@tap-format/spec": "^0.2.0",
     "auto-changelog": "^2.2.0",
-    "coveralls": "^3.0.2",
     "dependency-check": "^4.1.0",
     "gh-release": "^3.5.0",
     "mkdirp": "^1.0.4",
@@ -33,7 +32,6 @@
   "scripts": {
     "debug": "node --nolazy --inspect-brk=9229 node_modules/.bin/tape '{lib,test}/**/*.spec.js' | tap-format-spec",
     "prepublishOnly": "git push && git push --tags && gh-release",
-    "report": "nyc report --reporter=text-lcov | coveralls",
     "test": "run-s test:*",
     "test:lint": "standard | snazzy",
     "test:tape": "nyc tape '{lib,test}/**/*.test.js' | tap-format-spec",
