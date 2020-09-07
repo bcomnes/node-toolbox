@@ -3,7 +3,6 @@
     "tape",
     "standard",
     "snazzy",
-    "coveralls",
     "gh-release",
     "mkdirp",
     "npm-run-all",

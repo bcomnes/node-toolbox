@@ -3,7 +3,7 @@ const path = require('path')
 const binspec = require('./binspec.json')
 const fs = require('fs')
 
-test('expected bins are available when this module is consumed', async t => {
+test('expected bins are available when this module is consumed', t => {
   const binFolder = path.join(__dirname, '../node_modules/.bin')
   fs.readdir(binFolder, (err, files) => {
     t.error(err, 'read the bin directory')
