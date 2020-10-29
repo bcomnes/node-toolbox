@@ -16,7 +16,7 @@
     "nyc": "^15.1.0",
     "rimraf": "^3.0.0",
     "snazzy": "^8.0.0",
-    "standard": "^15.0.0",
+    "standard": "^16.0.0",
     "tape": "^5.0.1"
   },
   "homepage": "https://github.com/bcomnes/node-toolbox#readme",
